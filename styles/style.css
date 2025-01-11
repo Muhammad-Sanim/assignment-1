@@ -11,9 +11,14 @@
     padding: 0px;
  } */
 
+ body {
+    background-color: #F5F5F5;
+ }
+
  /* Shared Style */
  .btn-primary {
     background-color: rgba(0, 106, 80, 1.00);
+    border: none;
  }
 
 /* Banner Section */
@@ -101,4 +106,151 @@
 }
 .card-btn-3 {
     background-color: #FFC239;
+}
+
+/* Quote Section */
+.quote-section {
+    width: 1280px auto;
+    background-image: url(../assets/quote-bg.png);
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+
+/* Recent News Section */
+.recent-news {
+    margin: 80px 160px;
+}
+.news-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+.news-img {
+    border-radius: 24px;
+}
+.news {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+}
+.np-color {
+    color: #0E0E0E;
+}
+.news-heading {
+    opacity: 80%;
+    font-family: 32px;
+    font-weight: bold;
+}
+.news-description {
+    font-size: 16px;
+    opacity: 70%;
+}
+.news-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 24px;
+}
+.news-btn {
+    color: #FFFFFF;
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 700px;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Donate Section */
+.donate-sec {
+    margin: 80px 160px;
+    text-align: center;
+}
+.ammounts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 32px 105px;
+    gap: 24px;
+}
+.ammount-box {
+    padding: 10px 40px;
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 80%;
+    border: #09A15C;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.box-2 {
+    background-color: #C6E4D6;
+}
+.donate-sec input {
+    width: 1032px;
+    height: 64px;
+    border: none;
+    margin-bottom: 32px;
+}
+.donate-sec ::placeholder {
+    text-align: center;
+    font-size: 20px;
+    opacity: 30%;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 24px;
+    width: 1280px auto;
+    text-align: center;
+    margin: 80px 160px;
+    padding: 80px 265px;
+}
+.email-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+.sub-email {
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.email-container ::placeholder {
+    padding: 18px 403px 18px 40px;
+    font-size: 16px;
+    opacity: 30%;
+}
+
+/* Social Section */
+.social {
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    /* gap: 64px; */
+    text-align: center;
+    align-items: center;
+}
+.social-container {
+    border-top: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 24px;
+}
+
+/* Hover Effect */
+.hover-effect:hover {
+    background-color: #C6E4D6;
+}
+.hover-ef-btn {
+    transition: all;
 }
